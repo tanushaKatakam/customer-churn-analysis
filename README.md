@@ -14,24 +14,29 @@ It contains customer information such as:
 - Target variable: Churn (Yes/No)
 
 DATA PREPROCESSING
+
 - Converted TotalCharges to numeric and handled missing values
 - Converted Churn column to binary (1 = churn, 0 = no churn)
 - Removed irrelevant features like customerID
 - Applied one-hot encoding to categorical variables
 
 MODEL USED
+
 Logistic Regression was used for churn prediction due to its simplicity and effectiveness for binary classification problems.
 
 MODEL EVALUATION
+
 The model achieved approximately:
 - Accuracy: ~73%
 - Balanced recall for churn prediction using class_weight='balanced'
 
 Key Features Engineered
+
 - Churn Probability: Probability of customer leaving
 - Risk Level: Categorized into Low, Medium, High based on probability
 
 Tableau Dashboard
+
 Dashboard includes:
 - KPI Cards (Total Customers, Churn Rate, High Risk Customers)
 - Churn by Contract Type
@@ -40,18 +45,21 @@ Dashboard includes:
 - Customer Risk Segmentation
 
 Key Insights
+
 - Customers with month-to-month contracts have the highest churn rate
 - Electronic check users are more likely to churn
 - Higher monthly charges are associated with higher churn probability
 - The model effectively identifies high-risk customers for targeted retention
 
 Business Impact
+
 This project helps businesses:
 - Identify customers at risk of churn
 - Understand key drivers of churn
 - Take proactive retention measures such as targeted offers or contract upgrades
 
 Technologies Used
+
 - Python (Pandas, NumPy, Scikit-learn)
 - Machine Learning (Logistic Regression)
 - Tableau (Data Visualization)
