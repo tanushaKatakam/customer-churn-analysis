@@ -60,18 +60,23 @@ Technologies Used
 Dashboard insights
 
 -Contract type reflects customer commitment level, and customers with shorter contracts showed higher churn rates.
+
 <img width="719" height="720" alt="image" src="https://github.com/user-attachments/assets/c3a2ffa4-fde0-4858-bf35-a91782b28f3c" />
 
 -Electronic check users showed higher churn because they are typically less committed customers, often on flexible plans, and not enrolled in automatic payments, making it easier for them to discontinue the service.
+
 <img width="719" height="720" alt="image" src="https://github.com/user-attachments/assets/0ad2526b-a366-4cfa-9a91-63b26d78ffb5" />
 
 -The scatter plot visualizes the relationship between monthly charges and churn probability, showing that customers with higher charges tend to have a higher likelihood of churning.
+
 <img width="775" height="720" alt="image" src="https://github.com/user-attachments/assets/a4479b05-1a02-45cf-b56f-3b6cf4e74850" />
 
 -Risk segmentation groups customers based on how likely they are to churn. Customers are segmented into low, medium, and high risk based on churn probability, enabling businesses to prioritize retention strategies effectively.
+
 <img width="775" height="720" alt="image" src="https://github.com/user-attachments/assets/817c7d82-ae03-4e7b-81df-811adb346d66" />
 
 DASHBOARD:
+
 <img width="969" height="786" alt="image" src="https://github.com/user-attachments/assets/1c2ffafb-bd2b-4c80-9481-af9b968b2ac1" />
 
 
